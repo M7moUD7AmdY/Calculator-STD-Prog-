@@ -24,18 +24,10 @@
 int main()
 {
 	
-	DIO_Init();
-	LCD_Init();
-	ADC_Init(VREF_AREF,SCALER_64);
-	u16 temp;
+	app_init_CALC();
 	while (1)
 	{
-		temp=Temp_Read();
-		LCD_WriteNumber(temp/10);
-		LCD_WriteChar('.');
-		LCD_WriteNumber(temp%10);
-		_delay_ms(100);
-		LCD_Clear();
+		
 		
 	}
 	return 0;
