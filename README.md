@@ -12,7 +12,9 @@ and you can make op on old resurt.
 
 
 //*******************
+
 //Prog mode
+
 convert 
 
 BIN>>DEC
