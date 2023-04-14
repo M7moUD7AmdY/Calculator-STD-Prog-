@@ -4,7 +4,7 @@ Stander &amp; Programmer  Calculator
 
 
 first you should chose between STD & Prog mode 
-//STD mode 
+//STD mode \n
 you can make all Basic operation (+ - * /)
 and you can make op on old resurt.
 //*******************
