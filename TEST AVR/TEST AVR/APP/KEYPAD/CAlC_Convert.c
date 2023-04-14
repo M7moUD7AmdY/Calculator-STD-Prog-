@@ -5,52 +5,7 @@
  *  Author: imahm
  */ 
 /*
-int main()
-{
-	DIO_Init();
-	LCD_Init();
-	KeyPad_Init();
-	u8 flag=0,k,sum=0;
-	while(1)
-	{
-		k=KeyPad_GetKey();
-		if (k!='x')
-		{
-			if (flag)
-			{
-				LCD_SetCursor(1,1);
-				LCD_WriteString("          ");
-				LCD_SetCursor(1,1);
-				flag=0;
-			}
-			
-			if (k>='0'&&k<='9')
-			{
-				LCD_WriteChar(k);
-				sum=sum*10+k-'0';
-			}
-			else if (k=='=')
-			{
-				flag=1;
-				LCD_SetCursor(2,1);
-				LCD_WriteBinary(sum);
-				sum=0;
-				LCD_SetCursor(1,1);
 
-			}
-			else if (k=='c')
-			{
-				LCD_Clear();
-			}		
-		}
-	}
-	return 0;
-}
-
-*/
-//**********************************************************
-// 
-/*
 #define F_CPU 8000000UL
 #include <util/delay.h>
  #include "../../SERVICE/Std_types.h"
